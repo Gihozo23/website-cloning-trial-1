@@ -270,3 +270,21 @@ gap: 16px;
     }
     .Advertise h1{
         font-size:xx-large;}
+        .list li{
+margin-top: 2rem;
+        }
+        .more{
+            margin-top: 4rem;
+        }
+        .more1{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .phase1,
+        .phase2,
+        .phase3{
+            font-size: small;
+            margin-bottom: 1rem;
+            text-align: start;
+        }
