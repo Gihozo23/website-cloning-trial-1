@@ -124,7 +124,7 @@ button{
 
 
 }
-button :hover{
+button:hover{
     color: #9ca3af;
 }
 
@@ -143,6 +143,7 @@ gap: 16px;
     overflow: hidden;
     border-radius: 16px;
     border: 1px solid gray;
+    background-size: cover;
 }
 
 .Kigali{
