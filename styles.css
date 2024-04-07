@@ -123,6 +123,7 @@ button{
     border: none;
 
 
+
 }
 button:hover{
     color: #9ca3af;
@@ -130,7 +131,7 @@ button:hover{
 
 .part1{
     margin-top: 48%;
-    padding-inline: 80px;
+    padding-inline: 50px;
 
 }
 .travel-cards{
@@ -258,7 +259,7 @@ gap: 16px;
         display: flex;
         flex-direction: column;
         justify-content: center; 
-        padding-left: 3rem;
+        padding-left: 2rem;
         flex: 1;
         overflow: hidden;
         border-radius: 16px;
@@ -269,23 +270,35 @@ gap: 16px;
         color: white;
         padding-right: 3rem;
     }
-    .Advertise h1{
+    .Advertise {
         font-size:xx-large;}
         .list li{
-margin-top: 2rem;
+            margin-top: 2rem;
+        }
+        .part2{
+              padding-inline: 40px;
         }
         .more{
             margin-top: 4rem;
+
         }
         .more1{
             display: flex;
-            align-items: center;
-            gap: 16px;
+            gap: 13rem;
         }
-        .phase1,
-        .phase2,
-        .phase3{
-            font-size: small;
-            margin-bottom: 1rem;
+        .phase1 p,
+        .phase2 p, 
+        .phase3 p{
+            font-size: x-small;
             text-align: start;
+            font-weight: lighter;
+            color: #3b82f6;
+            
+        }
+        .line {
+  border-bottom: 1px solid #888;
+}
+        .footer { 
+            font-size: x-small;
+            padding-bottom: 4 rem;
         }
